@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    position: relative;
+    background-color: #fff;
+}
+
+.header-nav .modal-backdrop.show {
+    background-color: black;
+    opacity: 0.6;
+}
+
+.header-nav .modal-item.modal {
+    top: 2rem;
+}
+
+.header-nav .navbar {
+    padding: 2rem 2rem;
+}
+
+.header-nav .navbar-light a{
+    font-family: 'DM Serif Display', sans-serif;
+    color: #00AFD6;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+.header-nav .navbar-light .navbar-nav .nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #0A0F0D;
+    padding: 0rem 1.25rem 0rem 0rem;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.header-nav .navbar-light .navbar-nav .nav-link:hover {
+    color: #00AFD6;
+    font-weight: bold;
+}
+
+.header-nav .navbar-light .navbar-nav .active {
+    position: relative;
+    width: fit-content;
+}
+
+.header-nav .btn-fill {
+    font-family: 'Poppins' sans-serif;
+    border: 1px solid #0A0F0D;
+    background-color: #FAFCFF;
+    font-weight: bold;
+    border-radius: 120px;
+    padding: 0.75rem 1.5rem;
+    transition: 0.3s;
+}
+
+.header-nav .btn-fill:hover {
+    background-color: #00AFD6;
+    color: #FAFCFF;
+    border: none;
+}
+
+.header-nav .responsive li {
+    padding: 1rem;
+}
+
+.header-nav .hr {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.header-nav .hero {
+    padding: 4rem 5rem;
+}
+
+.header-nav .left-column {
+    margin-bottom: 0.75rem;
+    width: 100%;
+}
+
+.header-nav .title-text-big {
+    font-family: 'Poppins' sans-serif;
+    color: #0A0F0D;
+    font-size: 64px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 1.25rem;
+}
+
+.header-nav .text-caption {
+    font-family: 'Poppins' sans-serif;
+    text-align: left;
+    letter-spacing: 0.025rem;
+    font-weight: 200;
+    font-size: 18px;    
+}
+
+.header-nav .btn-get {
+    background-color: #00AFD6;
+    color: #FAFCFF;
+    font-weight: bold;
+    border-radius: 120px;
+    justify-content: flex-start;
+    transition: 0.3s;
+    padding: 1rem 2rem;
+    display: flex;
+}
+
+.header-nav .btn-get:hover {
+    border: 1px solid #0A0F0D;
+    background-color: #FAFCFF;
+    font-weight: bold;
+    color: #0A0F0D;
+}
+
+.benefit{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.benefit .container-benefit{
+    justify-content: center;
+}
+
+.benefit .container-benefit .column{
+    padding: 1rem 1rem;
+    background-color: #EBFFDB;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.benefit .icon-caption {
+    color: #0A0F0D;
+    font-family: 'Poppins' sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    margin-top: 20px;    
+}
+
+.demo-apps .container-title {
+    padding-top: 30px;
+}
+
+.demo-apps .container-title h1{
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.demo-apps .container-title p{
+    font-family: 'Poppins' sans-serif;
+    color: #000;
+}
+
+.demo-apps .column-template {
+    padding: 4px 4px;
+    text-align: center;
+    border-radius: 4px solid #000;
+    background-color: #EBFFDB; 
+    margin: 2px;
+}
+
+
+.demo-apps .card-demo .card{
+    background-color: #000;
+    border-radius:  20px solid #000;
+}
+
+.demo-apps .card-demo .card .card-body {
+    padding: 30px;
+    background-color: #EBFFDB;
+}
+
+.demo-apps .card-demo .card .card-body img{
+    background-color: transparent;
+}
+
+.demo-apps .card-demo .card .card-body h1{
+    font-size: 20px;
+    background-color: transparent;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.demo-apps .card-demo .card .card-body .text-card {
+    padding: 2px;
+    background-color: transparent;
+}
+.demo-apps .card-demo .card .card-body .text-card p{
+    background-color: transparent;
+    font-size: 12px;
+}
+
+.demo-apps .card-demo .card .card-body .text-card .btn-get {
+    background-color: #00AFD6;
+    color: #FAFCFF;
+    font-weight: bold;
+    border-radius: 120px;
+    transition: 0.3s;
+    padding: 1rem 2rem;
+   
+}
+
+.demo-apps .card-demo .card .card-body .text-card .btn-get:hover{
+    border: 1px solid #0A0F0D;
+    background-color: #FAFCFF;
+    font-weight: bold;
+    color: #0A0F0D;
+}
+
+.fitur-apps .container-title {
+    padding-top: 30px;
+    
+}
+
+.fitur-apps .container-title .text-left{
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+.fitur-apps .container,
+.fitur-apps .container .card-demo,
+.fitur-apps .container .card-demo .row,
+.fitur-apps .container .card-demo .row .col-sm-4,
+.fitur-apps .container .card-demo .row .col-sm-4 .card,
+.fitur-apps .container .card-demo .row .col-sm-4 .card .card-body,
+.fitur-apps .container .card-demo .row .col-sm-4 .card .card-body .text-card,
+.fitur-apps .container .card-demo .row .col-sm-4 .card .card-body .text-card h1,
+.fitur-apps .container .card-demo .row .col-sm-4 .card .card-body .text-card p,
+.fitur-apps .container .card-demo .row .col-sm-4 .card .card-body .card-fitur,
+.fitur-apps .container .card-demo .row .col-sm-4 .card .card-body .card-fitur p,
+.fitur-apps .container .card-demo .row .col-sm-4 .card .card-body .card-fitur .card-title,
+.fitur-apps .container .card-demo .row .col-sm-4 .card .card-body .card-fitur .card-title span{
+    background-color: transparent;
+}
+
+.fitur-apps .container .card-demo .row .col-sm-4 .card .card-body .card-fitur .card-title span .fa-solid{
+    background-color: #D5E9F8;
+    color: #00AFD6;
+    margin-right: 4px;
+}
+
+.fitur-apps .card-demo .card .card-body .text-card h1{
+    font-size: 28px;
+    font-weight: bold;
+   
+}
+
+.fitur-apps .card-demo .card .card-body .text-card p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fitur-apps .container .card-demo .row .col-sm-4 .card .card-body .card-fitur .card-title span{
+    font-weight: bold;
+}
+
+.testimonial{
+    background-color: #FFFBA0;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.testimonial  h1,
+.testimonial  p{
+    background-color: transparent;
+}
+
+.testimonial .container{
+    background-color: transparent;
+}
+
+.testimonial .column-testimonial,
+.testimonial .column-testimonial .container-testi,
+.testimonial .column-testimonial .container-testi .column-content,
+.testimonial .column-testimonial .container-testi .column-content .column-card{
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+.testimonial .column-testimonial .container-testi .column-content .column-card .card{
+   background-color: #000;
+   height: 180px;
+}
+
+.faq-accordion {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #000;
+}
+
+.faq-accordion .container{
+    background-color: #000;
+}
+
+.faq-accordion .faq-title h1{
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.faq-accordion .accordion{
+    background-color: transparent;
+}
+
+.faq-accordion .accordion .accordion-item {
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.faq-accordion .accordion .accordion-item .accordion-header button{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.faq-accordion .accordion .accordion-item .accordion-header .accordion-collapse {
+    color: #fff;
+}
+
+.faq-accordion .accordion .accordion-item h2{
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer .list-footer .list-space h1{
+    color: #00AFD6;
+    font-family: 'DM Serif Display';
+    font-weight: 600px;
+    font-size: 32px;
+}
+
+.footer .list-footer .list-space p{
+    color: #000;
+    font-size: 16px;
+}
+
+.footer .list-footer .list-unstyled input {
+    
+    border: 1px solid grey;
+    padding: 10px;
+    height: 30px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.footer .list-footer .list-unstyled textarea{
+   border-color: none;
+   width: 80%;
+}
+
+.footer .list-footer .list-unstyled .btn-send{
+    background-color: #00AFD6;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer .list-footer .list-unstyled .btn-send:hover{
+    border: 1px solid #0A0F0D;
+    background-color: #FAFCFF;
+    font-weight: bold;
+    color: #0A0F0D;
+}
+
+.footer .list-footer .list-unstyled .list-space .list-menu{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer .list-footer .list-unstyled .list-space .list-menu:hover{
+    color: #00AFD6;
+    font-weight: bold;
+}
+
+.footer .list-footer .list-unstyled .list-space .nav-sosmed i{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
