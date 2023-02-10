@@ -74,6 +74,7 @@
 
 .header-nav .hero {
     padding: 4rem 5rem;
+    height: calc(100vh -80px);
 }
 
 .header-nav .left-column {
@@ -166,15 +167,18 @@
 .demo-apps .card-demo .card{
     background-color: #000;
     border-radius:  20px solid #000;
+    overflow: hidden;
+    width: 100%;
 }
 
 .demo-apps .card-demo .card .card-body {
-    padding: 30px;
+    padding: 20px;
     background-color: #EBFFDB;
 }
 
 .demo-apps .card-demo .card .card-body img{
     background-color: transparent;
+    width: 80%;
 }
 
 .demo-apps .card-demo .card .card-body h1{
@@ -199,8 +203,6 @@
     font-weight: bold;
     border-radius: 120px;
     transition: 0.3s;
-    padding: 1rem 2rem;
-   
 }
 
 .demo-apps .card-demo .card .card-body .text-card .btn-get:hover{
@@ -215,9 +217,9 @@
     
 }
 
-.fitur-apps .container-title .text-left{
+.fitur-apps .container-title{
     padding-top: 30px;
-    padding-left: 80px;
+    justify-content: center;
 }
 
 .fitur-apps .container,
@@ -268,21 +270,36 @@
     background-color: transparent;
 }
 
-.testimonial .container{
+.testimonial .container-title{
     background-color: transparent;
+    text-align: center;
 }
 
-.testimonial .column-testimonial,
-.testimonial .column-testimonial .container-testi,
-.testimonial .column-testimonial .container-testi .column-content,
-.testimonial .column-testimonial .container-testi .column-content .column-card{
+.testimonial .column-testimonial{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.testimonial  .container-testi,
+.testimonial  .container-testi .column-content,
+.testimonial  .container-testi .column-content .column-card{
     background-color: transparent;
     margin-top: 20px;
 }
 
+.testimonial .column-testimonial .container-testi .column-content .column-card{
+  
+    margin: 10px;
+}
+
 .testimonial .column-testimonial .container-testi .column-content .column-card .card{
    background-color: #000;
-   height: 180px;
+}
+
+.testimonial .column-testimonial .container-testi .column-content .column-card .card {
+    width: 100%;
 }
 
 .faq-accordion {
@@ -387,4 +404,137 @@
     margin-left: 10px;
 }
 
+.breadcrumb {
+    margin-top: 30px;
+}
 
+/* detail */
+.container .breadcrumb .breadcrumb-item {
+    font-size: 20px;
+    font-weight: 300;
+    color: #0A0F0D;
+    text-decoration: none;
+}
+
+.container .breadcrumb .active {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00AFD6;
+    text-decoration: none;
+}
+
+.demo-apps .card-demo h1{
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.demo-apps .card-demo .card .card-body .text-card .btn-fill{
+    font-family: 'Poppins' sans-serif;
+    border: 1px solid #0A0F0D;
+    background-color: #FAFCFF;
+    font-weight: bold;
+    border-radius: 120px;
+    padding: 0.75rem 1.5rem;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+.demo-apps .card-demo .card .card-body .text-card .btn-fill:hover{
+    background-color: #00AFD6;
+    color: #FAFCFF;
+    border: none;
+}
+
+@media (max-width: 991px) {
+    .header-nav .hero {
+        height: calc(100vh - 60px);
+        
+    }
+    .header-nav .left-column {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    
+    .header-nav .title-text-big {
+        font-size: 40px;
+    }
+    .header-nav .text-caption {
+        font-size: 16px;
+    }
+
+    .demo-apps .card-demo .col-sm-3 {
+        width: 50%;
+        margin-top: 5px;
+    }
+    .testimonial .column-testimonial .container-testi .column-content .col-lg-4{
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-nav .hero {
+        height: calc(100vh - 40px);
+    }
+    
+    .header-nav .title-text-big {
+        font-size: 40px;
+    }
+    .header-nav .text-caption {
+        font-size: 14px;
+    }
+    .header-nav .btn-get {
+        padding: 16px 32px;
+        font-size: 16px;
+    }
+
+    
+    .demo-apps .card-demo .col-sm-3 {
+        width: 50%;
+        margin-top: 5px;
+    }
+    .demo-apps .container-title h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .fitur-apps .card-demo .col-sm-4{
+        margin-bottom: 10px;
+    }
+    .fitur-apps .container-title h1{
+        font-size: 24px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .fitur-apps .container-title p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .testimonial .column-testimonial .container-testi .column-content .col-lg-4{
+        width: 50%;
+    }
+    
+}
+
+@media (max-width: 575px) {
+    .header-nav .hero {
+        height: calc(100vh - 20px);
+    }
+   
+    .header-nav .title-text-big {
+        font-size: 40px;
+    }
+    .header-nav .text-caption {
+        font-size: 14px;
+    }
+    .header-nav .btn-get {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+    
+    
+}
